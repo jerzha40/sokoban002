@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://8rn1hcguxhvk"]
+
+[ext_resource type="Texture2D" uid="uid://ckqaytydahsov" path="res://Toucanoban_Assets/Sprites/Wall.png" id="1_80ewm"]
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_bha7m"]
+polygon = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_54icn"]
+size = Vector2(64, 64)
+
+[node name="Wall" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_80ewm")
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="."]
+occluder = SubResource("OccluderPolygon2D_bha7m")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_54icn")
+debug_color = Color(0.968627, 0, 0.729412, 0.592157)

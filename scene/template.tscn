@@ -15,12 +15,16 @@ shape = SubResource("RectangleShape2D_khbha")
 
 [node name="RayUP" type="RayCast2D" parent="."]
 target_position = Vector2(0, -64)
+collide_with_areas = true
 
 [node name="RayDOWN" type="RayCast2D" parent="."]
 target_position = Vector2(0, 64)
+collide_with_areas = true
 
 [node name="RayRIGHT" type="RayCast2D" parent="."]
 target_position = Vector2(64, 0)
+collide_with_areas = true
 
 [node name="RayLEFT" type="RayCast2D" parent="."]
 target_position = Vector2(-64, 0)
+collide_with_areas = true

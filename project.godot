@@ -26,3 +26,4 @@ ui_j={
 
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.431373, 0.2, 0.203922, 1)

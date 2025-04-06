@@ -1,9 +1,9 @@
 extends Area2D
 
-const TILE_SIZE=64
-const SPEED=.1
+const TILE_SIZE = 64
+const SPEED = .1
 
-var moving=false
+var moving = false
 
 func _ready():
 	pass
