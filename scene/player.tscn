@@ -1,0 +1,11 @@
+[gd_scene load_steps=4 format=3 uid="uid://d2l7wkem5ui7b"]
+
+[ext_resource type="PackedScene" uid="uid://087hpqbcq2gt" path="res://scene/template.tscn" id="1_hjaqi"]
+[ext_resource type="Script" uid="uid://b4ooxy7hsdyke" path="res://script/player.gd" id="2_ct4mp"]
+[ext_resource type="Texture2D" uid="uid://dhthxkxft2cuf" path="res://Toucanoban_Assets/Sprites/canopy_icon_white.png" id="2_fvtld"]
+
+[node name="Player" instance=ExtResource("1_hjaqi")]
+script = ExtResource("2_ct4mp")
+
+[node name="Sprite2D" parent="." index="1"]
+texture = ExtResource("2_fvtld")

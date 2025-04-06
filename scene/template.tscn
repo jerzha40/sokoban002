@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://087hpqbcq2gt"]
+
+[ext_resource type="Script" uid="uid://0lyoabdjwiv" path="res://script/Movable.gd" id="1_qdvpu"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_khbha"]
+size = Vector2(64, 64)
+
+[node name="Template" type="Area2D"]
+script = ExtResource("1_qdvpu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_khbha")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="RayUP" type="RayCast2D" parent="."]
+target_position = Vector2(0, -64)
+
+[node name="RayDOWN" type="RayCast2D" parent="."]
+target_position = Vector2(0, 64)
+
+[node name="RayRIGHT" type="RayCast2D" parent="."]
+target_position = Vector2(64, 0)
+
+[node name="RayLEFT" type="RayCast2D" parent="."]
+target_position = Vector2(-64, 0)

@@ -1,0 +1,4 @@
+res://scene/player.tscn
+res://script/player.gd
+res://scene/template.tscn
+res://script/Movable.gd
