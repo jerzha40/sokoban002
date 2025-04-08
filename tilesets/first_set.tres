@@ -5,7 +5,6 @@
 
 [sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_61hgj"]
 scenes/1/scene = ExtResource("1_taibn")
-scenes/1/display_placeholder = ExtResource("1_taibn")
 scenes/2/scene = ExtResource("2_61hgj")
 
 [resource]

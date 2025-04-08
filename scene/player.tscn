@@ -1,11 +1,31 @@
-[gd_scene load_steps=4 format=3 uid="uid://d2l7wkem5ui7b"]
+[gd_scene load_steps=5 format=3 uid="uid://d2l7wkem5ui7b"]
 
 [ext_resource type="PackedScene" uid="uid://087hpqbcq2gt" path="res://scene/template.tscn" id="1_hjaqi"]
 [ext_resource type="Script" uid="uid://b4ooxy7hsdyke" path="res://script/player.gd" id="2_ct4mp"]
 [ext_resource type="Texture2D" uid="uid://dhthxkxft2cuf" path="res://Toucanoban_Assets/Sprites/canopy_icon_white.png" id="2_fvtld"]
 
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_fvtld"]
+polygon = PackedVector2Array(0, -32, -24, -24, -32, 0, -24, 24, 0, 32, 24, 24, 32, 0, 24, -24)
+
 [node name="Player" instance=ExtResource("1_hjaqi")]
+collision_layer = 2
+collision_mask = 6
 script = ExtResource("2_ct4mp")
 
 [node name="Sprite2D" parent="." index="1"]
 texture = ExtResource("2_fvtld")
+
+[node name="RayUP" parent="." index="2"]
+collision_mask = 5
+
+[node name="RayDOWN" parent="." index="3"]
+collision_mask = 5
+
+[node name="RayRIGHT" parent="." index="4"]
+collision_mask = 5
+
+[node name="RayLEFT" parent="." index="5"]
+collision_mask = 5
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="." index="6"]
+occluder = SubResource("OccluderPolygon2D_fvtld")

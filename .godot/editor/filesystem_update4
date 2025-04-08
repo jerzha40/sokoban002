@@ -1,11 +1,12 @@
+res://scene/player.tscn
+res://tilesets/first_set.tres
+res://script/level_template.gd
+res://script/player.gd
 res://scene/level_template.tscn
 res://scene/template.tscn
-res://scene/player.tscn
 res://scene/floor.tscn
-res://tilesets/first_set.tres
 res://scene/wall.tscn
-res://script/player.gd
-res://script/Movable.gd
 res://scene/crate.tscn
-res://crate.gd
 res://script/crate.gd
+res://script/Movable.gd
+res://script/wall.gd

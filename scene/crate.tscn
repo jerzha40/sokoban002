@@ -1,11 +1,28 @@
-[gd_scene load_steps=4 format=3 uid="uid://c66c3en3s77ys"]
+[gd_scene load_steps=6 format=3 uid="uid://c66c3en3s77ys"]
 
 [ext_resource type="PackedScene" uid="uid://087hpqbcq2gt" path="res://scene/template.tscn" id="1_8mlqh"]
 [ext_resource type="Script" uid="uid://wec1mwhxuaqp" path="res://script/crate.gd" id="2_rv2ig"]
 [ext_resource type="Texture2D" uid="uid://d0n0fw6cgo7vn" path="res://Toucanoban_Assets/Sprites/Crate.png" id="3_r41h7"]
+[ext_resource type="Texture2D" uid="uid://bk6d6n2y8i0uy" path="res://Toucanoban_Assets/Sprites/light.png" id="4_rv2ig"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8mlqh"]
+size = Vector2(64, 64)
 
 [node name="Crate" instance=ExtResource("1_8mlqh")]
+collision_layer = 4
+collision_mask = 2
 script = ExtResource("2_rv2ig")
+
+[node name="CollisionShape2D" parent="." index="0"]
+shape = SubResource("RectangleShape2D_8mlqh")
 
 [node name="Sprite2D" parent="." index="1"]
 texture = ExtResource("3_r41h7")
+
+[node name="PointLight2D" type="PointLight2D" parent="." index="6"]
+color = Color(0.69, 0.49956, 0.0552, 1)
+shadow_enabled = true
+texture = ExtResource("4_rv2ig")
+texture_scale = 1.5
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
