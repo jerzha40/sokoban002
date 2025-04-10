@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://c4fneohpsqff2"]
+
+[ext_resource type="Texture2D" uid="uid://b5imsvvcusxgk" path="res://Toucanoban_Assets/Sprites/Floor.png" id="1_jweiq"]
+[ext_resource type="Texture2D" uid="uid://d0n0fw6cgo7vn" path="res://Toucanoban_Assets/Sprites/Crate.png" id="2_i5j4f"]
+
+[node name="TouchButton" type="TouchScreenButton"]
+texture_normal = ExtResource("1_jweiq")
+texture_pressed = ExtResource("2_i5j4f")

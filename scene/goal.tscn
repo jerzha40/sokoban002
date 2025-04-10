@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://bpux88ao1r2tb"]
+
+[ext_resource type="Texture2D" uid="uid://ejc8tav3o1p4" path="res://Toucanoban_Assets/Sprites/goal.png" id="1_5oceh"]
+[ext_resource type="Script" uid="uid://dlgoqtv4nl8fp" path="res://script/goal.gd" id="1_kw3xy"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kw3xy"]
+size = Vector2(48, 48)
+
+[node name="Goal" type="Area2D"]
+collision_layer = 8
+collision_mask = 4
+script = ExtResource("1_kw3xy")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_5oceh")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_kw3xy")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="area_exited" from="." to="." method="_on_area_exited"]

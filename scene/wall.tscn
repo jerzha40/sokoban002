@@ -10,6 +10,7 @@ polygon = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
 size = Vector2(64, 64)
 
 [node name="Wall" type="Area2D"]
+collision_mask = 0
 script = ExtResource("1_3h2xa")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

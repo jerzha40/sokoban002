@@ -1,0 +1,9 @@
+res://scene/crate.tscn::65772cfa2a2d9542e9a18ffac71fb0b7::1744264323::res://.godot/exported/133200997/export-993e317212b4bcd7972f1cab38bfc560-crate.scn
+res://scene/floor.tscn::00c82f276276e30ddeb56be69dfc825f::1744264323::res://.godot/exported/133200997/export-39b29a7345616f6fcbc69cbb5cc57423-floor.scn
+res://scene/level_template.tscn::c71a11fa616643df8b6770f8d49cd174::1744264323::res://.godot/exported/133200997/export-a5f00c3a420903e997dc9466dbf8d379-level_template.scn
+res://scene/player.tscn::0603546378caf5ac6ff9e4517b1b26a1::1744264322::res://.godot/exported/133200997/export-34afcb3bda2393b8f6a0cd71512aeb81-player.scn
+res://scene/template.tscn::4429cab235473540da5415a4a8a934e1::1744264322::res://.godot/exported/133200997/export-c1d28d5501024bd41c1728cf7b07b88e-template.scn
+res://scene/wall.tscn::f104b70868aae73ea56f7bc572bea0ed::1744264323::res://.godot/exported/133200997/export-518334c36348fd023830da94e54cc1f3-wall.scn
+res://tilesets/first_set.tres::f44006393f11366a15821dc310013343::1744262991::res://.godot/exported/133200997/export-896ef9a5ed0a1d99afb4f3c07c0302cd-first_set.res
+res://scene/gas_paddle.tscn::c0cf949047d8ac8d620db2718c3d50d7::1744264323::res://.godot/exported/133200997/export-8de12cba0946a7406ae2b97ca63557d5-gas_paddle.scn
+res://scene/touch_button.tscn::d006bee87d6cf88e519147cba0c8ba12::1744264323::res://.godot/exported/133200997/export-d3f4bf80923309659bc8bc3af8077613-touch_button.scn
