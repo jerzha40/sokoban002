@@ -4,23 +4,25 @@ class_name LevelTemplate
 func _ready():
 	for button in $CanvasLayer.get_children():
 		var direction = Vector2.ZERO
-		var Ray:String
+		var Ray: String
 		match button.name:
 			"Right":
-				Ray="RayRIGHT"
+				Ray = "RayRIGHT"
 				direction = Vector2.RIGHT
 			"Left":
-				Ray="RayLEFT"
+				Ray = "RayLEFT"
 				direction = Vector2.LEFT
 			"Up":
-				Ray="RayUP"
+				Ray = "RayUP"
 				direction = Vector2.UP
 			"Down":
-				Ray="RayDOWN"
+				Ray = "RayDOWN"
 				direction = Vector2.DOWN
-		button.pressed.connect($Player.player_move_trial.bind(Ray,direction))
+		button.pressed.connect($Player.player_move_trial.bind(Ray, direction))
 
 
 func _on_goals_passed() -> void:
+	GameState.current_level += 1
+	GameState.load_level()
 	print("Level Passed")
 	pass # Replace with function body.

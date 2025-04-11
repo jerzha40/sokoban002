@@ -11,11 +11,15 @@ config_version=5
 [application]
 
 config/name="sokoban002"
-run/main_scene="uid://cekj4c12gqhg0"
+run/main_scene="uid://cbgghfs1alj3u"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 boot_splash/bg_color=Color(1, 1, 1, 1)
 boot_splash/image="uid://dhthxkxft2cuf"
 config/icon="uid://dhthxkxft2cuf"
+
+[autoload]
+
+GameState="*res://scene/game_state.tscn"
 
 [input]
 
