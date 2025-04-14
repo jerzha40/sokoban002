@@ -1,5 +1,6 @@
+res://scene/main_screen.tscn
 res://tilesets/first_set.tres
-res://scene/level_001.tscn
+res://theme/sokoban002.theme
 res://scene/template.tscn
 res://scene/player.tscn
 res://scene/level_template.tscn
@@ -9,7 +10,6 @@ res://scene/crate.tscn
 res://scene/gas_paddle.tscn
 res://scene/touch_button.tscn
 res://scene/goal.tscn
+res://scene/level_001.tscn
 res://scene/level_002.tscn
 res://scene/game_state.tscn
-res://script/game_state.gd
-res://script/level_template.gd

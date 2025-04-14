@@ -4,10 +4,10 @@ res://scene/level_template.tscn::8e5b722a2d1ac5df7a90ceed660ed9d7::1744335337::r
 res://scene/player.tscn::fedf80832b5452a20da2502bb6a656ba::1744335337::res://.godot/exported/133200997/export-34afcb3bda2393b8f6a0cd71512aeb81-player.scn
 res://scene/template.tscn::4429cab235473540da5415a4a8a934e1::1744335337::res://.godot/exported/133200997/export-c1d28d5501024bd41c1728cf7b07b88e-template.scn
 res://scene/wall.tscn::c4f31539c6fa6c55c8e89cdc5cf69429::1744335337::res://.godot/exported/133200997/export-518334c36348fd023830da94e54cc1f3-wall.scn
-res://tilesets/first_set.tres::f44006393f11366a15821dc310013343::1744331310::res://.godot/exported/133200997/export-896ef9a5ed0a1d99afb4f3c07c0302cd-first_set.res
+res://tilesets/first_set.tres::f44006393f11366a15821dc310013343::1744546432::res://.godot/exported/133200997/export-896ef9a5ed0a1d99afb4f3c07c0302cd-first_set.res
 res://scene/gas_paddle.tscn::08e7dcf84af230bf991fbc6a857e39ee::1744335337::res://.godot/exported/133200997/export-8de12cba0946a7406ae2b97ca63557d5-gas_paddle.scn
 res://scene/touch_button.tscn::d006bee87d6cf88e519147cba0c8ba12::1744335337::res://.godot/exported/133200997/export-d3f4bf80923309659bc8bc3af8077613-touch_button.scn
 res://scene/goal.tscn::d6e6abfe7cbb1db06e79b7bc9e710528::1744335337::res://.godot/exported/133200997/export-ea571d2147eadb97b460e747d27fed4f-goal.scn
-res://scene/level_001.tscn::0b9bf5c859d1360394dce737fff41359::1744335337::res://.godot/exported/133200997/export-525d0ff177437519d4efcca818fc1a43-level_001.scn
+res://scene/level_001.tscn::0b9bf5c859d1360394dce737fff41359::1744547271::res://.godot/exported/133200997/export-525d0ff177437519d4efcca818fc1a43-level_001.scn
 res://scene/level_002.tscn::06f521d161b8462e676e007293cdee01::1744335337::res://.godot/exported/133200997/export-5df68c7848060dd85f2ade0ad81efab7-level_002.scn
 res://scene/game_state.tscn::9f9ef9c61243e7624f92332f2e9b8222::1744335337::res://.godot/exported/133200997/export-962bc2c8f42b9302e4b81c25fea7bd46-game_state.scn

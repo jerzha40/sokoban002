@@ -6,4 +6,4 @@
 
 [node name="GameState" type="Node"]
 script = ExtResource("1_deu3b")
-levels = Array[Resource]([ExtResource("2_q0bns"), ExtResource("3_lman5")])
+levels = Array[PackedScene]([ExtResource("2_q0bns"), ExtResource("3_lman5")])

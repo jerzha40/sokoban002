@@ -17,6 +17,8 @@ script = ExtResource("2_rv2ig")
 shape = SubResource("RectangleShape2D_8mlqh")
 
 [node name="Sprite2D" parent="." index="1"]
+position = Vector2(-1.66893e-06, -2.86102e-06)
+scale = Vector2(1, 1)
 texture = ExtResource("3_r41h7")
 
 [node name="RayUP" parent="." index="2"]

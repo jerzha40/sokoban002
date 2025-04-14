@@ -1,0 +1,156 @@
+[gd_scene load_steps=5 format=3 uid="uid://dudmi3h1t1g7g"]
+
+[ext_resource type="Theme" uid="uid://djxp4bi41iq62" path="res://theme/sokoban002.theme" id="1_r8dvm"]
+[ext_resource type="Texture2D" uid="uid://dhthxkxft2cuf" path="res://Toucanoban_Assets/Sprites/canopy_icon_white.png" id="2_ckf3p"]
+[ext_resource type="FontFile" uid="uid://ddechayy3cxd4" path="res://Toucanoban_Assets/Font/CreatoDisplay-Bold.otf" id="2_l8vv1"]
+[ext_resource type="FontFile" uid="uid://ctegrhsxlr8sk" path="res://Toucanoban_Assets/Font/CreatoDisplay-Regular.otf" id="4_n877d"]
+
+[node name="MainScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_r8dvm")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="TextureRect2" type="TextureRect" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("2_ckf3p")
+expand_mode = 3
+flip_h = true
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0.252793, 0.533776, 0.543606, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/outline_size = 8
+theme_override_constants/shadow_outline_size = 4
+theme_override_fonts/font = ExtResource("2_l8vv1")
+theme_override_font_sizes/font_size = 64
+text = "sokoban002"
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("2_ckf3p")
+expand_mode = 3
+
+[node name="CenterContainer" type="CenterContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="VBoxContainer/CenterContainer"]
+layout_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="VBoxContainer/CenterContainer/PanelContainer"]
+layout_mode = 2
+theme_override_constants/h_separation = 16
+theme_override_constants/v_separation = 16
+columns = 2
+
+[node name="Button" type="Button" parent="VBoxContainer/CenterContainer/PanelContainer/GridContainer"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="VBoxContainer/CenterContainer/PanelContainer/GridContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0.252793, 0.533776, 0.543606, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/outline_size = 8
+theme_override_constants/shadow_outline_size = 4
+theme_override_fonts/font = ExtResource("4_n877d")
+theme_override_font_sizes/font_size = 48
+text = "New Game"
+horizontal_alignment = 1
+
+[node name="Button2" type="Button" parent="VBoxContainer/CenterContainer/PanelContainer/GridContainer"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+
+[node name="Label3" type="Label" parent="VBoxContainer/CenterContainer/PanelContainer/GridContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0.252793, 0.533776, 0.543606, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/outline_size = 8
+theme_override_constants/shadow_outline_size = 4
+theme_override_fonts/font = ExtResource("4_n877d")
+theme_override_font_sizes/font_size = 48
+text = "Continue"
+horizontal_alignment = 1
+
+[node name="Button3" type="Button" parent="VBoxContainer/CenterContainer/PanelContainer/GridContainer"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+
+[node name="Label4" type="Label" parent="VBoxContainer/CenterContainer/PanelContainer/GridContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0.252793, 0.533776, 0.543606, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/outline_size = 8
+theme_override_constants/shadow_outline_size = 4
+theme_override_fonts/font = ExtResource("4_n877d")
+theme_override_font_sizes/font_size = 48
+text = "Option"
+horizontal_alignment = 1
+
+[node name="Button4" type="Button" parent="VBoxContainer/CenterContainer/PanelContainer/GridContainer"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+
+[node name="Label5" type="Label" parent="VBoxContainer/CenterContainer/PanelContainer/GridContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0.252793, 0.533776, 0.543606, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/outline_size = 8
+theme_override_constants/shadow_outline_size = 4
+theme_override_fonts/font = ExtResource("4_n877d")
+theme_override_font_sizes/font_size = 48
+text = "How To Play"
+horizontal_alignment = 1
+
+[node name="Button5" type="Button" parent="VBoxContainer/CenterContainer/PanelContainer/GridContainer"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+
+[node name="Label6" type="Label" parent="VBoxContainer/CenterContainer/PanelContainer/GridContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0.252793, 0.533776, 0.543606, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/outline_size = 8
+theme_override_constants/shadow_outline_size = 4
+theme_override_fonts/font = ExtResource("4_n877d")
+theme_override_font_sizes/font_size = 48
+text = "Quit"
+horizontal_alignment = 1
