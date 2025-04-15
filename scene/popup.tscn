@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=3 uid="uid://huhvjrp63x3i"]
+
+[ext_resource type="Texture2D" uid="uid://cncoy6xj1jhe4" path="res://Toucanoban_Assets/UI/UI_Textures/HowToPlay.png" id="1_56vfc"]
+[ext_resource type="Script" uid="uid://4j7o0pl0xl4o" path="res://script/popup.gd" id="1_64wbc"]
+
+[node name="Popup" type="Popup"]
+auto_translate_mode = 1
+size = Vector2i(640, 515)
+visible = true
+script = ExtResource("1_64wbc")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="CenterContainer" type="CenterContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/CenterContainer"]
+layout_mode = 2
+texture = ExtResource("1_56vfc")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 4
+alignment = 1
+
+[node name="Button" type="Button" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "OK"
+
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/Button" to="." method="_on_button_pressed"]

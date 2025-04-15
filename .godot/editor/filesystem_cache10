@@ -1,37 +1,38 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
-::res://::1744627259
+::res://::1744718056
 export_presets.cfg::TextFile/TextFile::-1::1744547161::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::7671860952910588513::1743865706::1743866088::1::::<><><>0<>0<>ae182a85c28f4c348c089021e9d92476<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://export/::1744547287
-::res://scene/::1744635111
-crate.tscn::PackedScene::7012862898229328546::1744635110::0::1::::<><><>0<>0<><>::uid://087hpqbcq2gt::::res://scene/template.tscn<>uid://wec1mwhxuaqp::::res://script/crate.gd<>uid://d0n0fw6cgo7vn::::res://Toucanoban_Assets/Sprites/Crate.png<>uid://bk6d6n2y8i0uy::::res://Toucanoban_Assets/Sprites/light.png
-floor.tscn::PackedScene::8439481349183761867::1744635110::0::1::::<><><>0<>0<><>::uid://b5imsvvcusxgk::::res://Toucanoban_Assets/Sprites/Floor.png
-game_state.tscn::PackedScene::2743096314499494570::1744635111::0::1::::<><><>0<>0<><>::uid://hq20v1b0o6tu::::res://script/game_state.gd<>uid://cbgghfs1alj3u::::res://scene/level_001.tscn<>uid://hu0gnaffhgbq::::res://scene/level_002.tscn
-gas_paddle.tscn::PackedScene::8542846520440416205::1744635110::0::1::::<><><>0<>0<><>::uid://dib1hhyp3jykd::::res://script/button.gd<>uid://b5imsvvcusxgk::::res://Toucanoban_Assets/Sprites/Floor.png
-goal.tscn::PackedScene::3481998049319368027::1744635111::0::1::::<><><>0<>0<><>::uid://ejc8tav3o1p4::::res://Toucanoban_Assets/Sprites/goal.png<>uid://dlgoqtv4nl8fp::::res://script/goal.gd
-level_001.tscn::PackedScene::4855793571667521160::1744635111::0::1::::<><><>0<>0<><>::uid://cekj4c12gqhg0::::res://scene/level_template.tscn<>uid://bpux88ao1r2tb::::res://scene/goal.tscn<>uid://c66c3en3s77ys::::res://scene/crate.tscn
-level_002.tscn::PackedScene::534138783167705970::1744635111::0::1::::<><><>0<>0<><>::uid://cekj4c12gqhg0::::res://scene/level_template.tscn
-level_template.tscn::PackedScene::5074838906884096321::1744635110::0::1::::<><><>0<>0<><>::uid://ci53w0srg606g::::res://tilesets/first_set.tres<>uid://c1tf1pqr4vgid::::res://script/level_template.gd<>uid://d2l7wkem5ui7b::::res://scene/player.tscn<>uid://c66c3en3s77ys::::res://scene/crate.tscn<>uid://dqss6e20e4ili::::res://script/goals.gd<>uid://bpux88ao1r2tb::::res://scene/goal.tscn<>uid://dtyho01sh40gf::::res://scene/gas_paddle.tscn
-main_screen.tscn::PackedScene::8569976430041743198::1744635111::0::1::::<><><>0<>0<><>::uid://djxp4bi41iq62::::res://theme/sokoban002.theme<>uid://dhthxkxft2cuf::::res://Toucanoban_Assets/Sprites/canopy_icon_white.png<>uid://ddechayy3cxd4::::res://Toucanoban_Assets/Font/CreatoDisplay-Bold.otf<>uid://ctegrhsxlr8sk::::res://Toucanoban_Assets/Font/CreatoDisplay-Regular.otf
-player.tscn::PackedScene::9079051747834100321::1744635110::0::1::::<><><>0<>0<><>::uid://087hpqbcq2gt::::res://scene/template.tscn<>uid://b4ooxy7hsdyke::::res://script/player.gd<>uid://dhthxkxft2cuf::::res://Toucanoban_Assets/Sprites/canopy_icon_white.png
-template.tscn::PackedScene::1824801813776534539::1744635110::0::1::::<><><>0<>0<><>::uid://0lyoabdjwiv::::res://script/Movable.gd
-touch_button.tscn::PackedScene::6819436932587776921::1744635110::0::1::::<><><>0<>0<><>::uid://b5imsvvcusxgk::::res://Toucanoban_Assets/Sprites/Floor.png<>uid://d0n0fw6cgo7vn::::res://Toucanoban_Assets/Sprites/Crate.png
-wall.tscn::PackedScene::2352162384474888104::1744635110::0::1::::<><><>0<>0<><>::uid://dcoesnbgxqig1::::res://script/wall.gd<>uid://ckqaytydahsov::::res://Toucanoban_Assets/Sprites/Wall.png
-::res://script/::1744333389
+::res://scene/::1744705169
+crate.tscn::PackedScene::7012862898229328546::1744705169::0::1::::<><><>0<>0<><>::uid://087hpqbcq2gt::::res://scene/template.tscn<>uid://wec1mwhxuaqp::::res://script/crate.gd<>uid://d0n0fw6cgo7vn::::res://Toucanoban_Assets/Sprites/Crate.png<>uid://bk6d6n2y8i0uy::::res://Toucanoban_Assets/Sprites/light.png
+floor.tscn::PackedScene::8439481349183761867::1744705169::0::1::::<><><>0<>0<><>::uid://b5imsvvcusxgk::::res://Toucanoban_Assets/Sprites/Floor.png
+game_state.tscn::PackedScene::2743096314499494570::1744705169::0::1::::<><><>0<>0<><>::uid://hq20v1b0o6tu::::res://script/game_state.gd<>uid://cbgghfs1alj3u::::res://scene/level_001.tscn<>uid://hu0gnaffhgbq::::res://scene/level_002.tscn
+gas_paddle.tscn::PackedScene::8542846520440416205::1744705169::0::1::::<><><>0<>0<><>::uid://dib1hhyp3jykd::::res://script/button.gd<>uid://b5imsvvcusxgk::::res://Toucanoban_Assets/Sprites/Floor.png
+goal.tscn::PackedScene::3481998049319368027::1744705169::0::1::::<><><>0<>0<><>::uid://ejc8tav3o1p4::::res://Toucanoban_Assets/Sprites/goal.png<>uid://dlgoqtv4nl8fp::::res://script/goal.gd
+level_001.tscn::PackedScene::4855793571667521160::1744705169::0::1::::<><><>0<>0<><>::uid://cekj4c12gqhg0::::res://scene/level_template.tscn<>uid://bpux88ao1r2tb::::res://scene/goal.tscn<>uid://c66c3en3s77ys::::res://scene/crate.tscn
+level_002.tscn::PackedScene::534138783167705970::1744705169::0::1::::<><><>0<>0<><>::uid://cekj4c12gqhg0::::res://scene/level_template.tscn
+level_template.tscn::PackedScene::5074838906884096321::1744705169::0::1::::<><><>0<>0<><>::uid://ci53w0srg606g::::res://tilesets/first_set.tres<>uid://c1tf1pqr4vgid::::res://script/level_template.gd<>uid://d2l7wkem5ui7b::::res://scene/player.tscn<>uid://c66c3en3s77ys::::res://scene/crate.tscn<>uid://dqss6e20e4ili::::res://script/goals.gd<>uid://bpux88ao1r2tb::::res://scene/goal.tscn<>uid://dtyho01sh40gf::::res://scene/gas_paddle.tscn
+main_screen.tscn::PackedScene::8569976430041743198::1744705169::0::1::::<><><>0<>0<><>::uid://djxp4bi41iq62::::res://theme/sokoban002.theme<>uid://dhthxkxft2cuf::::res://Toucanoban_Assets/Sprites/canopy_icon_white.png<>uid://ced2xawbiyigq::::res://script/main_screen.gd<>uid://ddechayy3cxd4::::res://Toucanoban_Assets/Font/CreatoDisplay-Bold.otf<>uid://ctegrhsxlr8sk::::res://Toucanoban_Assets/Font/CreatoDisplay-Regular.otf
+player.tscn::PackedScene::9079051747834100321::1744705169::0::1::::<><><>0<>0<><>::uid://087hpqbcq2gt::::res://scene/template.tscn<>uid://b4ooxy7hsdyke::::res://script/player.gd<>uid://dhthxkxft2cuf::::res://Toucanoban_Assets/Sprites/canopy_icon_white.png
+template.tscn::PackedScene::1824801813776534539::1744705169::0::1::::<><><>0<>0<><>::uid://0lyoabdjwiv::::res://script/Movable.gd
+touch_button.tscn::PackedScene::6819436932587776921::1744705169::0::1::::<><><>0<>0<><>::uid://b5imsvvcusxgk::::res://Toucanoban_Assets/Sprites/Floor.png<>uid://d0n0fw6cgo7vn::::res://Toucanoban_Assets/Sprites/Crate.png
+wall.tscn::PackedScene::2352162384474888104::1744705169::0::1::::<><><>0<>0<><>::uid://dcoesnbgxqig1::::res://script/wall.gd<>uid://ckqaytydahsov::::res://Toucanoban_Assets/Sprites/Wall.png
+::res://script/::1744704800
 button.gd::GDScript/GDScript::7724428725764971935::1743817161::0::1::::<>Button<><>0<>0<><>::
 crate.gd::GDScript/GDScript::1552580600295480991::1744262567::0::1::::Crate<>Area2D<><>0<>0<><>::
-game_state.gd::GDScript/GDScript::526037096418198454::1744336109::0::1::::<>Node<><>0<>0<><>::
+game_state.gd::GDScript::526037096418198454::1744704618::0::1::::<>Node<><>0<>0<><>::
 goal.gd::GDScript/GDScript::7944605239943242693::1744298952::0::1::::Goal<>Area2D<><>0<>0<><>::
 goals.gd::GDScript/GDScript::8320590867287245606::1744298938::0::1::::Goals<>Node2D<><>0<>0<><>::
 level_template.gd::GDScript/GDScript::6637325308286650819::1744336112::0::1::::LevelTemplate<>Node2D<><>0<>0<><>::
+main_screen.gd::GDScript::5061470341307794140::1744704800::0::1::::<>Control<><>0<>0<><>::
 Movable.gd::GDScript/GDScript::52320925202368917::1744262567::0::1::::<>Area2D<><>0<>0<><>::
-player.gd::GDScript/GDScript::4451690859247812944::1744262567::0::1::::Player<>Area2D<><>0<>0<><>::
+player.gd::GDScript::4451690859247812944::1744704580::0::1::::Player<>Area2D<><>0<>0<><>::
 wall.gd::GDScript/GDScript::7328816723825901686::1744262567::0::1::::Wall<>Area2D<><>0<>0<><>::
-::res://theme/::1744635102
-new_theme.tres::Theme::2288684243387850705::1744601377::0::1::::<><><>0<>0<><>::
-sokoban002.theme::Theme::7839404941314199929::1744635102::0::1::::<><><>0<>0<><>::
-::res://tilesets/::1744627455
-first_set.tres::TileSet::5398024154047524864::1744627455::0::1::::<><><>0<>0<><>::uid://dsifa3wvwnirb::::res://scene/floor.tscn<>uid://8rn1hcguxhvk::::res://scene/wall.tscn
+::res://theme/::1744683805
+new_theme.tres::Theme/Theme::2288684243387850705::1744601377::0::1::::<><><>0<>0<><>::
+sokoban002.theme::Theme::7839404941314199929::1744683805::0::1::::<><><>0<>0<><>::
+::res://tilesets/::1744683805
+first_set.tres::TileSet::5398024154047524864::1744683805::0::1::::<><><>0<>0<><>::uid://dsifa3wvwnirb::::res://scene/floor.tscn<>uid://8rn1hcguxhvk::::res://scene/wall.tscn
 ::res://Toucanoban_Assets/::1744634733
 ::res://Toucanoban_Assets/Font/::1744627452
 CreatoDisplay-Bold.otf::FontFile/FontFile::7378220065755785519::1743902885::1744627436::1::::<><><>0<>0<>565542a8d3efd9c3e4c42f679d6d952c<>res://.godot/imported/CreatoDisplay-Bold.otf-84daf0cf482588801c276fe90eaf8967.fontdata::
@@ -39,9 +40,9 @@ CreatoDisplay-Regular.otf::FontFile/FontFile::6115081964508390410::1743902885::1
 ::res://Toucanoban_Assets/Music/::1743902897
 Christmas synths.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::4576292306036960050::1743902885::1743902897::1::::<><><>0<>0<>283f3b1abcd7e6f3547e811f6881ea1d<>res://.godot/imported/Christmas synths.ogg-8896c65be49561cde51eeec2259abf53.oggvorbisstr::
 ::res://Toucanoban_Assets/new/::1744634918
-20250414_2035_Sokoban Tile Design_simple_compose_01jrt4nczqe9bahhxh12aw38xj.png::CompressedTexture2D::2013598141384137363::1744634850::1744634918::1::::<><><>0<>0<>0b9f432f74cf26f220ed1684e0585fa1<>res://.godot/imported/20250414_2035_Sokoban Tile Design_simple_compose_01jrt4nczqe9bahhxh12aw38xj.png-b77a26e1f4fed59ddcf372282986f8af.ctex::
-20250414_2039_Sokoban Tile Design_simple_compose_01jrt4vamfft5rf7t0r5qpvavr.png::CompressedTexture2D::8064144830182964490::1744634909::1744634918::1::::<><><>0<>0<>eee126a2926756e1350f648322e7fdf4<>res://.godot/imported/20250414_2039_Sokoban Tile Design_simple_compose_01jrt4vamfft5rf7t0r5qpvavr.png-4577606a20d4b1603abb7cd1cf987b81.ctex::
-20250414_2043_Sokoban Crate Tile_simple_compose_01jrt53jd4e2vbt025r6fkc3ha (2).png::CompressedTexture2D::7358540559229576906::1744634878::1744634918::1::::<><><>0<>0<>2168102503b908af93ea8a4cbc46fc1e<>res://.godot/imported/20250414_2043_Sokoban Crate Tile_simple_compose_01jrt53jd4e2vbt025r6fkc3ha (2).png-c4c0d6cec381d8b3a0890d49aa2eae4a.ctex::
+20250414_2035_Sokoban Tile Design_simple_compose_01jrt4nczqe9bahhxh12aw38xj.png::CompressedTexture2D/CompressedTexture2D::2013598141384137363::1744634850::1744634918::1::::<><><>0<>0<>0b9f432f74cf26f220ed1684e0585fa1<>res://.godot/imported/20250414_2035_Sokoban Tile Design_simple_compose_01jrt4nczqe9bahhxh12aw38xj.png-b77a26e1f4fed59ddcf372282986f8af.ctex::
+20250414_2039_Sokoban Tile Design_simple_compose_01jrt4vamfft5rf7t0r5qpvavr.png::CompressedTexture2D/CompressedTexture2D::8064144830182964490::1744634909::1744634918::1::::<><><>0<>0<>eee126a2926756e1350f648322e7fdf4<>res://.godot/imported/20250414_2039_Sokoban Tile Design_simple_compose_01jrt4vamfft5rf7t0r5qpvavr.png-4577606a20d4b1603abb7cd1cf987b81.ctex::
+20250414_2043_Sokoban Crate Tile_simple_compose_01jrt53jd4e2vbt025r6fkc3ha (2).png::CompressedTexture2D/CompressedTexture2D::7358540559229576906::1744634878::1744634918::1::::<><><>0<>0<>2168102503b908af93ea8a4cbc46fc1e<>res://.godot/imported/20250414_2043_Sokoban Crate Tile_simple_compose_01jrt53jd4e2vbt025r6fkc3ha (2).png-c4c0d6cec381d8b3a0890d49aa2eae4a.ctex::
 ::res://Toucanoban_Assets/SFX/::1743902898
 Celebrate.wav::AudioStreamWAV/AudioStreamWAV::4319833414496729836::1743902885::1743902898::1::::<><><>0<>0<>010af551ab4cbfc6d86ef6d1555c5c1f<>res://.godot/imported/Celebrate.wav-26976e3ce98a40cd4f7b05cf8f65fbfb.sample::
 Click.wav::AudioStreamWAV/AudioStreamWAV::6002637260296360431::1743902885::1743902898::1::::<><><>0<>0<>398519c06a986e7af4ab40911bbdbe7a<>res://.godot/imported/Click.wav-d931e5a11dd4453d524176da0f60b0da.sample::
@@ -52,7 +53,7 @@ Move5.wav::AudioStreamWAV/AudioStreamWAV::8554137068880273575::1743902885::17439
 Move7.wav::AudioStreamWAV/AudioStreamWAV::6827955355606312690::1743902885::1743902898::1::::<><><>0<>0<>0200b4cd68cd5bf6ff32a6f3cbabf8a2<>res://.godot/imported/Move7.wav-07f79c8eca1cd6552795f36f9326236e.sample::
 Move.wav::AudioStreamWAV/AudioStreamWAV::5112647900025624491::1743902885::1743902898::1::::<><><>0<>0<>2eecd09ee485625af0f80532cf7e80db<>res://.godot/imported/Move.wav-3cdf90d447e581d2a89d94bd29db0550.sample::
 Woosh.wav::AudioStreamWAV/AudioStreamWAV::8576249727895844963::1743902885::1743902898::1::::<><><>0<>0<>c39e26694edb5d34b3e397a72d87bb22<>res://.godot/imported/Woosh.wav-8d30f383f689bb5de7f91017d5cce3dc.sample::
-::res://Toucanoban_Assets/Sprites/::1743902898
+::res://Toucanoban_Assets/Sprites/::1744635219
 canopy_icon_white.png::CompressedTexture2D/CompressedTexture2D::7690273787099478173::1743902886::1744635161::1::::<><><>0<>0<>52f2da785d5570c800eebf51cd8dba3b<>res://.godot/imported/canopy_icon_white.png-dd8dff8c96f7fcadc0bc4f51c26a1e89.ctex::
 Crate.png::CompressedTexture2D/CompressedTexture2D::8942348110123692839::1743902885::1744635219::1::::<><><>0<>0<>ee04538f391540de1bb337767912d33f<>res://.godot/imported/Crate.png-450215db3a005380f6ecbea4d5fb08b3.ctex::
 dirt_01.png::CompressedTexture2D/CompressedTexture2D::9128975283277263394::1743902886::1743902898::1::::<><><>0<>0<>b3f0a0a1cc8d90b59fa5902d3bd5495b<>res://.godot/imported/dirt_01.png-7a08f4cdd29b6eb4b4d0ea4cc41080a0.ctex::

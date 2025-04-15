@@ -1,6 +1,7 @@
-res://scene/main_screen.tscn
+res://scene/popup.tscn
 res://tilesets/first_set.tres
 res://theme/sokoban002.theme
+res://scene/main_screen.tscn
 res://scene/template.tscn
 res://scene/player.tscn
 res://scene/level_template.tscn
@@ -13,3 +14,5 @@ res://scene/goal.tscn
 res://scene/level_001.tscn
 res://scene/level_002.tscn
 res://scene/game_state.tscn
+res://script/main_screen.gd
+res://script/popup.gd

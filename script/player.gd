@@ -25,4 +25,6 @@ func _unhandled_input(event: InputEvent) -> void:
 		player_move_trial("RayUP", Vector2.UP)
 	elif event.is_action_pressed("ui_down"):
 		player_move_trial("RayDOWN", Vector2.DOWN)
+	elif event.is_action_pressed("ui_cancel"):
+		get_tree().change_scene_to_file("res://scene/main_screen.tscn")
 	pass
