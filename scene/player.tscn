@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://dhthxkxft2cuf" path="res://Toucanoban_Assets/Sprites/canopy_icon_white.png" id="2_fvtld"]
 
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_fvtld"]
-polygon = PackedVector2Array(0, -32, -24, -24, -32, 0, -24, 24, 0, 32, 24, 24, 32, 0, 24, -24)
+polygon = PackedVector2Array(0, -30, -12, -28, -22, -22, -28, -12, -30, 0, -28, 12, -22, 22, -12, 28, 0, 30, 12, 28, 22, 22, 28, 12, 30, 0, 28, -12, 22, -22, 12, -28)
 
 [node name="Player" instance=ExtResource("1_hjaqi")]
 collision_layer = 2

@@ -13,6 +13,7 @@ func _on_button_continue_pressed() -> void:
 
 
 func _on_button_option_pressed() -> void:
+	$Options.popup_centered()
 	pass # Replace with function body.
 
 

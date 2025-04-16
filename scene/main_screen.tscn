@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://dudmi3h1t1g7g"]
+[gd_scene load_steps=8 format=3 uid="uid://dudmi3h1t1g7g"]
 
 [ext_resource type="Theme" uid="uid://djxp4bi41iq62" path="res://theme/sokoban002.theme" id="1_r8dvm"]
 [ext_resource type="Texture2D" uid="uid://dhthxkxft2cuf" path="res://Toucanoban_Assets/Sprites/canopy_icon_white.png" id="2_ckf3p"]
@@ -6,6 +6,7 @@
 [ext_resource type="FontFile" uid="uid://ddechayy3cxd4" path="res://Toucanoban_Assets/Font/CreatoDisplay-Bold.otf" id="2_l8vv1"]
 [ext_resource type="FontFile" uid="uid://ctegrhsxlr8sk" path="res://Toucanoban_Assets/Font/CreatoDisplay-Regular.otf" id="4_n877d"]
 [ext_resource type="PackedScene" uid="uid://huhvjrp63x3i" path="res://scene/popup.tscn" id="6_bor6b"]
+[ext_resource type="PackedScene" uid="uid://6ittvvycsjo" path="res://scene/options.tscn" id="7_06ml0"]
 
 [node name="MainScreen" type="Control"]
 layout_mode = 3
@@ -161,6 +162,10 @@ horizontal_alignment = 1
 [node name="Popup" parent="." instance=ExtResource("6_bor6b")]
 transparent_bg = true
 size = Vector2i(640, 528)
+visible = false
+
+[node name="Options" parent="." instance=ExtResource("7_06ml0")]
+transparent_bg = true
 visible = false
 
 [connection signal="pressed" from="VBoxContainer/CenterContainer/PanelContainer/GridContainer/ButtonNewGame" to="." method="_on_button_new_game_pressed"]
